@@ -2,10 +2,10 @@
     box-sizing: border-box;
 }
 
-body { 
+body {
+    font-family: Karla, sans-serif;
     margin: 0;
     background-color: #0B2434;
-    font-family: Inter, sans-serif;
     padding: 20px;
     height: 100vh;
     display: flex;
@@ -27,16 +27,19 @@ main {
     border-radius: 5px;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
-    justify-content: center;
-    
 }
 
 .dice-container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); 
-    grid-template-rows: repeat(2, auto);  
-    gap: 15px; 
+    grid-template: auto auto / repeat(5, 1fr);
+    gap: 20px;
+}
+
+button {
+    font-family: Karla, sans-serif;
+    cursor: pointer;
 }
 
 .dice-container button {
@@ -48,5 +51,14 @@ main {
     background-color: white;
     font-size: 1.75rem;
     font-weight: bold;
-    cursor: pointer;
+}
+
+button.roll-dice {
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 6px;
+    background-color: #5035FF;
+    color: white;
+    font-size: 1.2rem;
 }

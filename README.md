@@ -1,4 +1,4 @@
-# 🎲 Tenzies Game  
+# 🎲 Tenzies Game using React JS
 
 Tenzies is a fun and addictive dice game where the goal is to match all ten dice to the same number.  
 Built with **React**, this project offers interactive gameplay, state management practice, and a clean UI.  
